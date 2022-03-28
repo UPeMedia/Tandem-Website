@@ -541,8 +541,8 @@ body {
     position: fixed;
     display: flex;
     flex-direction: row;
-    background: #ec1c24;
-    bottom: 0; }
+    background: red;
+    top: 0; }
     /* line 476, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     body .menubar .menu-logo {
       width: 90px;
