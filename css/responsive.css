@@ -28,7 +28,7 @@
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
-        left: 6%;
+        right: 0;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
@@ -484,11 +484,7 @@
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
         line-height: calc(var(--vh, 1vh)*19);
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
-        right: 65%;
-    }
-    
+       
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
         width: 87%;
     }
