@@ -51,7 +51,7 @@ body {
     body .outer-wrapper .wrapper {
       display: flex;
       flex-direction: row;
-      width: 600vw;
+      width: 800vw;
       transform: rotate(90deg) translateY(-100vh);
       transform-origin: top left; }
       /* line 39, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
@@ -538,6 +538,168 @@ body {
           right: -40%;
           z-index: 2; }
       /* line 393, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+      body .outer-wrapper .wrapper section.paginafull#pilar04 {
+        background-color: #5a5c5c;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients01 {
+        display: flex;
+        width: 40%;
+        align-items: center;
+        align-content: center;
+      }
+      body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients01 .text-p04 p {
+        text-align: justify;
+        font-size: 18px;
+        color: white;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        align-content: center;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients h2 {
+        font-size: 140px;
+        font-weight: 800;
+        margin: 0;
+        color: white;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients h2#clients-our {
+        transform: translateY(-48px);
+        padding-left: 260px;
+        color: #8fc340;
+        text-decoration: underline;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar06 {
+        background-color: #5a5c5c;
+        display: flex;
+        flex-direction: row;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo01 {
+        width: 52%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo01 .promotitle01 {
+        margin-left: 100px;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo01 .promotitle01 #dont-call {
+        font-size: 32px;
+        font-weight: 800;
+        color: #8fc340;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo01 .promotitle01 #title-sub {
+        font-size: 68px;
+        font-weight: 800;
+        color: white;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo02 {
+        width: 48%;
+        display: flex;
+        align-items: center;
+      }
+      body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo02 img {
+        width: 125%;
+        transform: translateY(40px);
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 {
+        background-color: white;
+        display: flex;
+        align-items: center;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07title01 {
+        position: absolute;
+        left: 4%;
+        top: 10%;
+        width: 40%;
+        font-size: 100px;
+        font-weight: 800;
+        color: #8fc340;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07title02 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 40%;
+        font-size: 100px;
+        font-weight: 800;
+        color: #8fc340;
+      }
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07promo01 {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07promo01 #second-promo {
+        position: absolute;
+        bottom: -40%;
+        left: 25%;
+        width: 50%;
+        transform: rotate(06deg);
+      }
+    
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07promo01 .promobox07 {
+        background-color: #8fc340;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 6rem;
+        transform: rotate(-06deg);
+        border-radius: 25px;
+        box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07promo01 .promobox07 img#bike-logo {
+        width: 10%;
+        margin: 0 auto;
+        margin-top: 1rem;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07promo01 .promobox07 img#arrow-white {
+        width: 4%;
+        margin: 0 auto;
+        transform: rotate(6deg);
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar07 #p07promo01 .promobox07 p {
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        width: 65%;
+        margin: 0 auto;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
       body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto01 {
         width: 20%;
         float: left;
