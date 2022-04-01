@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tandem</title>
     <meta name="theme-color" content="#000" />
-
+    <!-- Fuente personalizada -->
+    <link rel="stylesheet" href="css/Fuente/customFonts.css">
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,6 +16,9 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animaciones2.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="css/hamburgers.css" rel="stylesheet" />
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
@@ -26,7 +30,6 @@
         crossorigin="anonymous"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="https://kit.fontawesome.com/07c647f697.js" crossorigin="anonymous"></script>
-
 </head>
 <!-- <body onload="animateHTML().init();"> -->
 
@@ -36,30 +39,35 @@
             <figure class="menu-logo">
                 <img src="images/tandem-imgs/Logo.png" alt="logo-tandem">
             </figure>
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a href="#inicio">
                             Inicio
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="nav-li">
+                        <a href="#pilar01">
                             Nosotros
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="nav-li">
+                        <a href="#pilar03">
                             Servicios
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="nav-li">
+                        <a href="#pilar04">
                             Clientes
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="nav-li">
+                        <a href="#pilar06">
                             Filosofia
                         </a>
                     </li>
@@ -112,19 +120,21 @@
                     <div class="s01i-wrapp" id="swipescroll">
                         <img src="images/swipe.png" alt="Swipe">
                     </div>
-                    <h1 class="title-tandem" id="title-seamos">
-                        SEAMOS
-                    </h1>
-                    <h1 class="title-tandem" id="title-claros">
-                        CLAROS
-                    </h1>
+                    <div class="titleSeamos">
+                        <h1 class="title-tandem" id="title-seamos">
+                            SEAMOS
+                        </h1>
+                        <h1 class="title-tandem" id="title-claros">
+                            CLAROS
+                        </h1>
+                    </div>
                     <span class="text-subtitle"> De entrada probablemente no somos la agencia adecuada <br> para ti y
                         tus
                         marcas </span>
                     <div class="s01i-wrapp" id="s01iw-01">
                         <img src="images/tandem-imgs/SparkPrint copy.png" alt="Personas en Bici">
                     </div>
-                    <div class="s01i-wrapp hidden1" id="s01iw-02" data-aos="fade-left">
+                    <div class="s01i-wrapp" id="s01iw-02" data-aos="fade-right">
                         <img src="images/tandem-imgs/Bici copy.png" alt="Bici Pequeña">
                     </div>
                     <div class="s01i-wrapp hidden1" id="s01iw-03" data-aos="fade-left">
@@ -162,13 +172,13 @@
                 <article id="p02work01">
                     <h2>¿Quieres seguidores?</h2>
                     <div class="hidden1" id="p02work-img01" data-aos="fade-up-right">
-                        <img src="images/tandem-imgs/wantfans.png" alt="burbuja">
+                        <img src="images/tandem-imgs/wantfollowers.png" alt="burbuja">
                     </div>
                 </article>
                 <article id="p02work02">
                     <h2>¿Quieres contar historias?</h2>
                     <div class="hidden1" id="p02work-img02" data-aos="fade-up-right">
-                        <img src="images/tandem-imgs/wantfans.png" alt="burbuja">
+                        <img src="images/tandem-imgs/wanthistoryspng.png" alt="burbuja">
                     </div>
                 </article>
                 <article id="p02work03">
@@ -184,7 +194,11 @@
 
             <section class="paginafull" id="pilar03">
                 <article id="p03work03">
-
+                    <img id="p03redes" src="images/tandem-imgs/redes.png" alt="redes">
+                    <img id="p03creatividad" src="images/tandem-imgs/Creatividad.png" alt="creatividad">
+                    <img id="p03estrategia" src="images/tandem-imgs/Estrategia.png" alt="estrategia">
+                    <img id="p03diseño" src="images/tandem-imgs/Diseño.png" alt="diseño">
+                    <img id="p03medios" src="images/tandem-imgs/Medios.png" alt="medios">
                 </article>
                 <!-- 
                     <article id="p03work03">
@@ -269,72 +283,47 @@
 
             </section>
         </div>
-        <section class="hidden paginafull" id="contactanos">
-            <article id="p04contacto01">
-                <!-- RED BACKGROUND -->
+    </div>
+    <footer>
+        <section class="paginafull" id="contactanos">
+            <article class="contacto-personas">
+                <div class="persona persona1">
+                    <h1>HERMANN <br> VON DER MEDEN </h1>
+                    <div class="datos">
+                        <span class="number"> 56473829 </span>
+                        <sub>correo@tadem.com</sub>
+                    </div>
+                </div>
+                <div class="persona persona2">
+                    <h1>SERGIO <br> CERVANTES </h1>
+                    <div class="datos">
+                        <span class="number"> 56473829 </span>
+                        <sub>correo@tadem.com</sub>
+                    </div>
+                </div>
             </article>
-            <article id="p04contacto02">
-                <div class="hidden1" id="p04cw-img01" data-aos="fade-up-right">
-                    <img src="images/contactanos-ttl@2x.png" alt="Contáctanos">
-                </div>
-                <div id="p04cw-form">
-                    <form id="contact-form" method="post" action="contact.php" role="form">
-
-                        <div class="messages"></div>
-
-                        <div class="controls">
-                            <div class="form-group">
-                                <label for="form_name">¿CUÁL ES TU NOMBRE?</label>
-                                <input id="form_name" type="text" name="name" class="form-control"
-                                    placeholder="¿CUÁL ES TU NOMBRE?" required="required"
-                                    data-error="Es requerido un nombre.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="form_email">¿Y TU MAIL?</label>
-                                <input id="form_email" type="email" name="email" class="form-control"
-                                    placeholder="¿Y TU MAIL?" required="required"
-                                    data-error="Se requiere un e-mail valido.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="form_message">¿QUÉ PODEMOS HACER POR VOS?</label>
-                                <textarea id="form_message" name="message" class="form-control"
-                                    placeholder="¿QUÉ PODEMOS HACER POR VOS?" rows="1" required="required"
-                                    data-error="Dejanos un mensaje."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <div class="g-recaptcha" data-sitekey="6LdS2tYUAAAAAE7hUjbWH5WLn6fiw6rw1eQ8ymAL"
-                                    data-callback="verifyRecaptchaCallback"
-                                    data-expired-callback="expiredRecaptchaCallback"></div>
-                                <input class="form-control d-none" data-recaptcha="true" required
-                                    data-error="Please complete the Captcha">
-                                <div class="help-block with-errors"></div>
-                            </div>
-
-                            <input type="submit" class="btn btn-success btn-send" value="Enviar">
-
-                        </div>
-
-                    </form>
-                </div>
-                <div id="p04cw-info">
-                    <h3>GUA</h3>
-                    <p>5 av. 5-55 Z. 14 Europlaza Torre IV Nivel 17</p>
-                    <p><a href="tel:+502-2382-2236" target="_blank">(502) 2382-2236</a></p>
-                </div>
+            <article class="social-media">
+                <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #8fc340;" data-width="40"
+                    data-height="40"></span>
+                <span class="iconify" data-icon="akar-icons:facebook-fill" style="color: #8fc340;" data-width="40"
+                    data-height="40"></span>
+                <span class="iconify" data-icon="akar-icons:behance-fill" style="color: #8fc340;" data-width="40"
+                    data-height="40"></span>
+                <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #8fc340;" data-width="40"
+                    data-height="40"></span>
             </article>
         </section>
-    </div>
+        <button class="btn-contacto">
+            <span class="iconify" data-icon="lucide:send" style="color: white;" data-width="48" data-height="48"></span>
+            <span> Contactanos </span>
+        </button>
+    </footer>
     <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script src="js/menu&contact.js"></script>
     <script src="js/validator.js"></script>
     <script src="js/contact.js"></script>
 
     <script>
-
         document.addEventListener('DOMContentLoaded', function (event) {
             animateHTML().init();
         })
@@ -348,7 +337,7 @@
                 elemswrap = document.getElementById("wrapper");
                 elems = document.querySelectorAll('.hidden1');
                 windowHeight = window.innerWidth - 300;
-                console.log(windowHeight);
+                //console.log(windowHeight);
                 addEventHandlers();
                 checkPosition();
             }
@@ -369,7 +358,7 @@
                 for (var i = 0; i < elems.length; i++) {
                     var positionFromTop = elems[i].getBoundingClientRect().left;
                     dataanim = elems[i].dataset.aos;
-                    console.log(dataanim);
+                    //console.log(dataanim);
                     if (positionFromTop - windowHeight <= 0) {
                         elems[i].className = elems[i].className.replace(
                             'hidden1',
