@@ -1,10 +1,7 @@
 let btnContact = document.querySelector(".btn-contacto");
 let contactSection = document.querySelector("#contactanos");
-
 let section = document.querySelectorAll(".wrapper section");
 let links = document.querySelectorAll(".nav-li a");
-
-
 let outerWrapper = document.querySelector(".outer-wrapper");
 
 outerWrapper.onscroll = () => {
@@ -36,32 +33,6 @@ hamburger.addEventListener('click', function () {
     navList.classList.toggle('showed');
 });
 
-/*window.onscroll = () => {
-    console.log(screenX);
-    section.forEach(sec => {
-        let top = window.scrollX;
-        let offset = sec.offsetLeft;
-        let width = sec.offsetWidth;
-        
-
-        if (top >= offset && top < offset + width) {
-            links.forEach(link => {
-                link.classList.remove('link-active');
-                document.querySelector('nav ul li a[href*=' + id + ']').classList.add('link-active');
-            })
-        }
-    })
-}*/
-/*
-links.forEach(link => {
-    
-    window.addEventListener("scroll", () => {
-        if(id = tar)
-        links.classList.remove("link-active");
-        link.classList.add("link-active");
-    });
-}) */
-
 
 btnContact.addEventListener("click", function () {
     // Toggle class "is-active"
@@ -69,3 +40,37 @@ btnContact.addEventListener("click", function () {
     btnContact.classList.toggle("opened");
     // Do something else, like open/close menu
 });
+
+let closeArt = document.querySelectorAll(".closeBox");
+let logoClient = document.querySelectorAll(".clientBox h2");
+let artBox = document.querySelectorAll(".artbox");
+
+
+logoClient.forEach(logo => {
+    logo.addEventListener('click', () => {
+        artBox.forEach(artb => {
+            if (logo.getAttribute('id') == "artbox1") {
+                document.querySelector('#box1').classList.add("appear")
+            }
+            if (logo.getAttribute('id') == "artbox2") {
+                document.querySelector('#box2').classList.add("appear")
+            }
+            if (logo.getAttribute('id') == "artbox3") {
+                document.querySelector('#box3').classList.add("appear")
+            }
+
+            else {
+                artb.classList.remove('appear');
+            }
+        })
+    })
+})
+
+
+closeArt.forEach(closeX => {
+    closeX.addEventListener('click', () => {
+        artBox.forEach(artb => {
+            artb.classList.remove('appear');
+        })
+    })
+})
