@@ -259,6 +259,10 @@
         color: white;
     }
 
+    body .outer-wrapper .wrapper {
+        width: 900vw;
+    }
+
     body .outer-wrapper .wrapper section.paginafull#inicio,
     body .outer-wrapper .wrapper section.paginafull#pilar01,
     body .outer-wrapper .wrapper section.paginafull#pilar02,
@@ -558,6 +562,24 @@
 
     body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients h2#clients-our {
         padding-left: 2rem;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar05{
+        width: 200vw;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes .clientBox h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes {
+        grid-column-gap: 24px;
     }
 
     body .outer-wrapper .wrapper section.paginafull#pilar06 #p06promo01 {

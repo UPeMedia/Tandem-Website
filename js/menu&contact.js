@@ -59,6 +59,10 @@ logoClient.forEach(logo => {
                 document.querySelector('#box3').classList.add("appear")
             }
 
+            if (logo.getAttribute('id') == "artbox4") {
+                document.querySelector('#box4').classList.add("appear")
+            }
+
             else {
                 artb.classList.remove('appear');
             }

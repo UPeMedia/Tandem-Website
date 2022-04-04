@@ -563,8 +563,9 @@ h2 {
       }
 
       body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 {
-        width: 100%;
+        width: 90%;
         height: 100%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -582,6 +583,10 @@ h2 {
 
       body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes .clientBox {
         width: 100%;
+      }
+
+      body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes .clientBox h2 {
+        text-align: center;
       }
 
       body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes .clientBox .artbox {
@@ -611,8 +616,8 @@ h2 {
 
       body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes .clientBox .artbox .componentBox .closeBox {
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 2%;
+        top: 5%;
         z-index: 2;
         padding: 1rem;
         background-color: transparent;
@@ -620,7 +625,7 @@ h2 {
       }
 
       body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes .clientBox .artbox .componentBox .img-promo-client {
-        width: 100%;
+        width: 450px;
         object-fit: cover;
         margin: 0 auto;
       }
