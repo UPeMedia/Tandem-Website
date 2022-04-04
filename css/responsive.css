@@ -260,7 +260,7 @@
     }
 
     body .outer-wrapper .wrapper {
-        width: 900vw;
+        width: 1200vw;
     }
 
     body .outer-wrapper .wrapper section.paginafull#inicio,
@@ -339,7 +339,13 @@
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-04 {
         top: 5%;
-        right: -10%;
+        right: 2%;
+        width: 15%;
+        height: auto;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 {
+        width: 150vw;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros {
@@ -375,6 +381,10 @@
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content {
         width: 100vh;
     }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-img02 {
+        width: 45%;
+    }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
         position: absolute;
@@ -396,16 +406,18 @@
         width: 175%;
     }
     
+    body .outer-wrapper .wrapper section.paginafull#pilar02 {
+        width: 300vw;
+    } 
     
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 {
-       width: 25%;
+       width: 20%;
        left: 5%;
     }
 
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work02 {
-        width: 25%;
-        left: 5%;
-        top: 24%;
+        width: 20%;
+        left: 30%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
@@ -430,19 +442,21 @@
     }*/
     
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work03 {
+        width: 31%;
         bottom: 0;
+        right: 10%;
     }
 
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work03 #p02ww-img01 {
         position: relative;
         bottom: -55%;
-        width: 200%;
+        width: 100%;
     }
 
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work04 {
-        top: 20%;
+        top: 40%;
         width: 45%;
-        right: 5%;
+        right: 2%;
     }
 
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work04 p {
