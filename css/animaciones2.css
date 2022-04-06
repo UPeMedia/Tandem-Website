@@ -254,3 +254,35 @@
     opacity: 1;
   }
 }
+
+
+/* Animaciones de Texto by Angel */
+
+.line-1#dont-call{
+  position: relative;
+  top: 50%;
+  left: 0;  
+  width: auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  text-align: left;    
+}
+
+/* Animation */
+.anim-typewriter#dont-call{ 
+animation: typewriter 8s steps(44) 1s infinite normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+0% {width: 0;}
+50% {width: 10em;}
+100% {width: 0;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
