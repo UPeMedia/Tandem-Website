@@ -34,12 +34,16 @@ hamburger.addEventListener('click', function () {
 });
 
 
+
+let contactClose = document.querySelector('#contact-close');
+
 btnContact.addEventListener("click", function () {
     // Toggle class "is-active"
     contactSection.classList.toggle("is-active");
     btnContact.classList.toggle("opened");
-    // Do something else, like open/close menu
+    //contactClose.classList.toggle('actived');
 });
+
 
 let closeArt = document.querySelectorAll(".closeBox");
 let logoClient = document.querySelectorAll(".clientBox h2");

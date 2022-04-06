@@ -1004,8 +1004,22 @@ footer .btn-contacto {
   appearance: none;
   outline: 0.5px white;
   border-style: none;
+  transition: all 0.4s ease-in-out;
 }
 
 footer .btn-contacto.opened {
   background-color: #8fc340;
+}
+
+footer .btn-contacto.opened #contact-send {
+  display: none;
+}
+
+footer .btn-contacto #contact-close {
+  transition: all 0.5s;
+  display: none;
+}
+
+footer .btn-contacto.opened #contact-close {
+  display: block;
 }
