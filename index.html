@@ -28,7 +28,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
 </head>
 <!-- <body onload="animateHTML().init();"> -->
 
@@ -78,13 +78,6 @@
         <div class="wrapper" id="wrapper">
             <section class="paginafull" id="inicio">
                 <article id="s01imgs">
-                    <div class="s01i-wrapp" id="mousescroll">
-                        <span>Scroll</span>
-                        <img src="images/mousescroll.png" alt="Mouse Scroll">
-                    </div>
-                    <div class="s01i-wrapp" id="swipescroll">
-                        <img src="images/swipe.png" alt="Swipe">
-                    </div>
                     <div class="titleSeamos">
                         <h1 class="title-tandem" id="title-seamos">
                             SEAMOS
@@ -326,14 +319,22 @@
                 </div>
             </article>
             <article class="social-media">
-                <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #8fc340;" data-width="40"
-                    data-height="40"></span>
-                <span class="iconify" data-icon="akar-icons:facebook-fill" style="color: #8fc340;" data-width="40"
-                    data-height="40"></span>
-                <span class="iconify" data-icon="akar-icons:behance-fill" style="color: #8fc340;" data-width="40"
-                    data-height="40"></span>
-                <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #8fc340;" data-width="40"
-                    data-height="40"></span>
+                <a href="#">
+                    <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #8fc340;" data-width="40"
+                        data-height="40"></span>
+                </a>
+                <a href="#">
+                    <span class="iconify" data-icon="akar-icons:facebook-fill" style="color: #8fc340;" data-width="40"
+                        data-height="40"></span>
+                </a>
+                <a href="#">
+                    <span class="iconify" data-icon="akar-icons:behance-fill" style="color: #8fc340;" data-width="40"
+                        data-height="40"></span>
+                </a>
+                <a href="#">
+                    <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #8fc340;" data-width="40"
+                        data-height="40"></span>
+                </a>
             </article>
         </section>
         <button class="btn-contacto">
@@ -347,9 +348,6 @@
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/menu&contact.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/contact.js"></script>
-
     <script>
         document.addEventListener('DOMContentLoaded', function (event) {
             animateHTML().init();
