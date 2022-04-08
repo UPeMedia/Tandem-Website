@@ -99,37 +99,110 @@
         font-size: 0.8em;
         padding-right: 5%;
     }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros {
+        width: 45%;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text h2 {
+        font-size: 6rem;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text p {
+        transform: translateX(0);
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
+        width: 36%;
+        top: 40%;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-img02 {
+        width: 60%;
+    }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl h2 {
-        font-size: 5em;
+        font-size: 2em;
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl h2 {
-        font-size: 4.9em;
+
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 {
+        width: 36%;
+        top: 40%;
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl p {
-        font-size: 0.7em;
+
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work02 {
+        width: 36%;
+        left: 28%;
+        top: 40%;
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl {
-        width: 87%;
-        left: -50%;
+
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work03 {
+        width: 55%;
+        bottom: -28%;
+        right: 20%; 
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl h2 {
-        font-size: 6em;
+
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work04 {
+        width: 34%;
+        right: 1%;
+        top: 30%;
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl p {
-        font-size: 0.9em;
-        padding-left: 35%;
-        margin-bottom: 0;
+
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work04 {
+        width: 75%;
+        left: 15%;
     }
-    
-    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl #p03ww-img05 {
-        width: 18%;
-        left: 18%;
+
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 img#p03estrategia {
+        top: 27%;
+        width: 22%;
+        left: 5%;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 img#p03redes {
+        width: 24%;
+        right: 10%;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 img#p03creatividad {
+        top: 22%; 
+        width: 24%;   
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 img#p03diseño {
+        bottom: 30%;
+        width: 24%;
+        right: 10%;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 img#p03medios {
+        bottom: 30%;
+        width: 24%;
+    }    
+
+    body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients {
+        width: 100%;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients h2 {
+        font-size: 100px;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar04 #p04clients02 .p04titleclients h2#clients-our {
+        padding-left: 80px;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar05 #p05clients01 .logosclientes h2 {
+        font-size: 2.5rem;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar07 {
+        width: 135vw;
+    }
+
+    body .outer-wrapper .wrapper section.paginafull#pilar07 .container-cards .card-list {
+        height: 1300px;
+        width: 50%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-img01 {
@@ -142,6 +215,13 @@
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group input, body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group textarea {
         font-size: 1em;
+    }
+
+    footer section.paginafull#contactanos .contacto-personas {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 15%;
     }
 }
 
@@ -441,14 +521,7 @@
         font-size: 0.8em;
         bottom: 17%;
     }
-    
-     /* body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work02 {
-        width: calc(var(--vh, 8vh)*8);
-        position: absolute;
-        left: 14%;
-        z-index: 1;
-    }*/
-    
+        
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work03 {
         width: 25%;
         bottom: 8%;

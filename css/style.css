@@ -798,7 +798,7 @@ h2 {
 
   footer section.paginafull#contactanos {
     position: fixed;
-    width: 200vh;
+    width: 100%;
     height: 100vh;
     z-index: 101;
     transition: all 0.5s;
