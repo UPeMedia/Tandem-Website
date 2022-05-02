@@ -46,12 +46,13 @@ btnContact.addEventListener("click", function () {
 
 
 let closeArt = document.querySelectorAll(".closeBox");
-let logoClient = document.querySelectorAll(".clientBox h2");
+let logoClient = document.querySelectorAll(".clientBox img");
 let artBox = document.querySelectorAll(".artbox");
 
 
 logoClient.forEach(logo => {
     logo.addEventListener('click', () => {
+        console.log('Hola', logo);
         artBox.forEach(artb => {
             if (logo.getAttribute('id') == "artbox1") {
                 document.querySelector('#box1').classList.add("appear")
@@ -62,9 +63,17 @@ logoClient.forEach(logo => {
             if (logo.getAttribute('id') == "artbox3") {
                 document.querySelector('#box3').classList.add("appear")
             }
-
             if (logo.getAttribute('id') == "artbox4") {
                 document.querySelector('#box4').classList.add("appear")
+            }
+            if (logo.getAttribute('id') == "artbox5") {
+                document.querySelector('#box5').classList.add("appear")
+            }
+            if (logo.getAttribute('id') == "artbox6") {
+                document.querySelector('#box6').classList.add("appear")
+            }
+            if (logo.getAttribute('id') == "artbox7") {
+                document.querySelector('#box7').classList.add("appear")
             }
             else {
                 artb.classList.remove('appear');
